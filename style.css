@@ -1,0 +1,168 @@
+body {
+	background: #f5f5f5;
+	color: rgb(30,30,30);
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: justify;
+	text-decoration: none;
+}
+
+#banner {
+	background: #313335;
+	padding: 1px; 
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	margin: 20px 0px 0px 0px;
+	border-radius: 4px;
+	border: 1px #f5f5f5;
+}
+
+	#banner-inside {
+		background-color: #0e76a8;
+		color: white;
+		padding: 1px 1px;
+		border-radius: 4px;
+		width: 350px;
+		margin: 10px auto;
+	  	text-align: center;
+	}
+
+		#title {
+			color: white;
+			font-family: sans-serif;
+			font-weight: 800;
+			letter-spacing: 5px
+			font-size: 300px;
+			line-height: 0.1;
+		}
+
+		#professional-profile {
+			font-weight: 100;
+			letter-spacing: 5px
+			font-size: 10px;
+			color: white;
+			font-family: sans-serif;
+		}
+
+.container {
+  width: 700px;
+  margin: 10px auto;
+  background: #f5f5f5;
+}
+
+			@media (max-width: 960px) {
+			  .container {
+			    width: 700px;
+			  }
+			}
+			@media (max-width: 720px) {
+			  .container {
+			    width: 500px;
+			  }
+			}
+			@media (max-width: 540px) {
+			  .container {
+			    width: 300px;
+			  }
+			}
+
+	#top-card {
+		text-align: center;
+		padding: 12px; 
+		margin: 20px 0px 0px 0px;
+		border-radius: 4px;
+		box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+		border: 1px #f5f5f5;
+		background-image: url(images/london-cityscape.jpg);
+	}
+
+		#img-circle {
+		  border-radius: 50%;
+		  box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+			margin-left: auto;  
+			margin-right: auto;
+			margin-top: 1px;
+			margin-bottom: 1px; 
+		}
+
+	.card-white {
+		padding: 40px; 
+		border-radius: 4px;
+		background: #f5f5f5;
+		box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+		margin: 20px 0px 0px 0px;
+		border-radius: 4px;
+		border: 1px #f5f5f5;
+	}
+
+		h2 {
+			color: #0e76a8;
+			font-family: helvetica;
+			font-weight: 800;
+			letter-spacing: 5px
+			font-size: 30px;
+			line-height: 0.1;
+		}
+
+			.text-centre {
+				text-align: center;
+			}
+
+		.image-normal {
+			padding: 1px;
+			margin: 10px;
+		}
+
+		.button-blue {
+			background-color: #0e76a8;
+			color: white;
+			padding: 10px 10px;
+			border-radius: 4px;
+			margin: auto;
+			text-decoration: none;
+		}
+			.button-blue:hover {
+				background-color: black;
+				color: white;
+			}
+
+#footer {
+	background: #313335;
+	padding: 1px; 
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	margin: 20px 0px 0px 0px;
+	border-radius: 4px;
+	border: 1px #f5f5f5;
+}
+
+	#footer-inside {
+		background-color: white;
+		color: white;
+		padding: 0.1px 0.1px;
+		border-radius: 4px;
+		width: 190px;
+		margin: 10px auto;
+	  	text-align: center;
+	}
+
+		.list-inline {
+  			list-style: none;
+  			padding-left: 0px;
+  			text-align: left;
+		}
+			.list-inline li {
+	  			display: inline; 
+	  			padding: 0px 1px;
+			}
+			.icon {
+				background-color: #0e76a8;
+				color: white;
+				padding: 15px 20px;
+				border-radius: 4px;
+				margin: 1px 1px 1px 1px;
+				text-decoration: none;
+			}
+				.icon:hover {
+					background-color: black;
+					color: white;
+				}
